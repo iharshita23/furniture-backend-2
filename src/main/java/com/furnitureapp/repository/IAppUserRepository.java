@@ -1,13 +1,13 @@
-package com.furnitureapp.repository;
+// package com.furnitureapp.repository;
 
-import org.springframework.data.mongodb.repository.MongoRepository;
-import org.springframework.stereotype.Repository;
+// import org.springframework.data.mongodb.repository.MongoRepository;
+// import org.springframework.stereotype.Repository;
 
-import com.furnitureapp.model.AppUser;
+// import com.furnitureapp.model.AppUser;
 
-@Repository
-public interface IAppUserRepository extends MongoRepository<AppUser, String>{
+// @Repository
+// public interface IAppUserRepository extends MongoRepository<AppUser, String>{
 
-//	Furniture getBySeater(Integer seater);
-	AppUser findByUsername(String username);
-}
+// //	Furniture getBySeater(Integer seater);
+// 	AppUser findByUsername(String username);
+// }
