@@ -18,12 +18,14 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 import com.furnitureapp.exception.FurnitureNotFoundException;
 import com.furnitureapp.model.FurnitureDTO;
 import com.furnitureapp.service.IFurnitureService;
 
 @RestController
+@CrossOrigin(origins="*")
 @RequestMapping("/furniture-api")
 public class FurnitureController {
 	
